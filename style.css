@@ -1,0 +1,85 @@
+* {
+  color: #dee0ec;
+}
+
+html {
+  width: 100dvw;
+  height: 100dvh;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #1d1d1c;
+  overflow: hidden auto;
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+
+header h1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 40px;
+  margin-bottom: 5px;
+  font-family: "Abril Fatface";
+}
+
+nav {
+  width: 100%;
+  height: auto;
+}
+
+nav p {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 8px;
+  font-family: "comfortaa";
+}
+
+#first {
+  padding: auto;
+  margin: 25px auto;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "comfortaa";
+  border: 2px solid #fff;
+  border-radius: 5px;
+  flex-wrap: wrap;
+}
+
+#first p {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#first img {
+  width: 450px;
+  border-radius: 360px;
+  margin: 5px 5px 25px 5px;
+}
+
+#second {
+  padding: auto;
+  margin: 25px auto;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "comfortaa";
+  border: 2px solid #fff;
+  border-radius: 5px;
+  flex-wrap: wrap;
+}
